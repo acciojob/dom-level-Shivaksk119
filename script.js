@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let item = document.getElementId('level');
+let item = document.getElementById('level');
 
 let count =0;
 let parent = item.parentElement();
