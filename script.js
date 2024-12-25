@@ -2,7 +2,7 @@
 let item = document.getElementById('level');
 
 let count =0;
-let parent = item.parentElement();
+let parent = item.parentElement;
 const levelFinder=(parent)=>{
 	while(parent){
 		count++;
